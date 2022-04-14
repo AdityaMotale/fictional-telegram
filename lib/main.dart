@@ -1,4 +1,4 @@
-import 'package:atom_counter/orbitcanvas/atom_canvas.view.dart';
+import 'package:atom_counter/home/home.view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: const Color(0xFF191636),
       ),
-      home: const AtomCounterView(),
+      home: const HomeView(),
     );
   }
 }
